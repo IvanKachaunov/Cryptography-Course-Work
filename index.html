@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Caesar Cipher Encrypter</title>
+</head>
+<body>
+
+    <div class="container">
+        <div id="project-title"><h2>Разшифроване на шифъра на Цезар</h2></div>
+
+        <div class="info-provider">
+            <div class="content-container">
+            <label><textarea type='text' id="plainInput" cols="20" rows="5" placeholder="Напиши текст..."></textarea></label>
+            <input type="number" id="shiftInput" min="0" max="25">
+            <label><textarea type='text' id="encryptedInput-1" cols="20" rows="5" placeholder="Криптиран текст:"></textarea></label>
+            <button id="encrypt-btn">Криптирай</button>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
